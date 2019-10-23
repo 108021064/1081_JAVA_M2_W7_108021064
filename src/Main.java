@@ -16,7 +16,7 @@ public class Main {
             sum = sum+i;
         }
         System.out.println(sum);*/
-        int n = scn.nextInt();
+        /*int n = scn.nextInt();
         int m = n / 2;
         boolean flag = true;
         for (int i = 2; i <= m; i++) {
@@ -29,6 +29,12 @@ public class Main {
             System.out.println("yeeeeeeeeeeeeeeeeeeeeeeeees");
         } else {
             System.out.println("noooooooooooooooooooooooooo");
+        }*/
+        int n = scn.nextInt();
+        int sum = 0;
+        for (int i=1;i<=n;i++){
+            sum=sum+i*(i+1);
         }
+        System.out.println(sum);
     }
 }
